@@ -1,0 +1,17 @@
+{
+  "name": "Chronograf",
+  "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
+  "description": "Chronograf is the user interface and administrative component of the InfluxDB 1.x platform. Use templates and libraries to rapidly build dashboards with real-time visualizations.",
+  "shortDescription": "Chronograf is the user interface and administrative component of the InfluxDB 1.x platform.",
+  "deploymentType": "DOCKER_COMPOSE",
+  "version": "1.6",
+  "serviceOptionCategories": [ ],
+  "serviceRequirements": [],
+  "serviceRepositories": [],
+  "dotEnvFile": "",
+  "envFiles": {},
+
+  "serviceCategoryName": "Dashboard",
+  "coverImageFilename": "chronograf.png",
+  "composeFilename": "docker-compose.yml"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gogs",
+  "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
+  "description": "The Gogs project aims to build a simple, stable and extensible self-hosted Git service that can be set up in the most painless way. With Go, this can be done with an independent binary distribution across all platforms that Go supports, including Linux, macOS, Windows and ARM-based systems.",
+  "shortDescription": "The Gogs project aims to build a simple, stable and extensible self-hosted Git service that can be set up in the most painless way.",
+  "deploymentType": "DOCKER_COMPOSE",
+  "version": "0.12",
+  "serviceOptionCategories": [ ],
+  "serviceRequirements": [],
+  "serviceRepositories": [],
+  "dotEnvFile": "",
+  "envFiles": {},
+
+  "serviceCategoryName": "Git",
+  "coverImageFilename": "gogs_logo_only.png",
+  "composeFilename": "docker-compose.yml"
+}

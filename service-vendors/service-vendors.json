@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
+    "name": "FabOS",
+    "description": "",
+    "logoFilename": "logo-fabos.png"
+  },
+  {
+    "id": "4b407e9f-2154-401d-a4e1-b1497c5619c1",
+    "name": "Fraunhofer IPA",
+    "description": "",
+    "logoFilename": "logo-fraunhofer-ipa.png"
+  }
+]

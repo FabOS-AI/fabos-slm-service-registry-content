@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Database"
+  },
+  {
+    "id": 2,
+    "name": "Application"
+  },
+  {
+    "id": 3,
+    "name": "Cube"
+  },
+  {
+    "id": 4,
+    "name": "Broker"
+  },
+  {
+    "id": 5,
+    "name": "Dashboard"
+  },
+  {
+    "id": 6,
+    "name": "Firewall"
+  },
+  {
+    "id": 7,
+    "name": "Middleware"
+  },
+  {
+    "id": 8,
+    "name": "Agent"
+  },
+  {
+    "id": 9,
+    "name": "CI/CD"
+  },
+  {
+    "id": 10,
+    "name": "Git"
+  },
+  {
+    "id": 11,
+    "name": "IDE"
+  }
+]

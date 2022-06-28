@@ -1,0 +1,16 @@
+---
+version: '2'
+services:
+  chronograf:
+    image: chronograf:1.6
+    ports:
+      - '8888:8888'
+    volumes:
+      - chronograf-storage:/var/lib/chronograf
+    environment:
+      - INFLUXDB_URL=
+      - INFLUXDB_USERNAME=user
+      - INFLUXDB_PASSWORD=password
+
+volumes:
+  chronograf-storage:
