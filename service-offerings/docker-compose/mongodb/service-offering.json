@@ -1,4 +1,5 @@
 {
+  "id": "58d83cbe-c635-481f-abc5-551b891310d0",
   "name": "MongoDB",
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "MongoDB ist ein dokumentenorientiertes NoSQL-Datenbankmanagementsystem, das in der Programmiersprache C++ geschrieben ist. Da die Datenbank dokumentenorientiert ist, kann sie Sammlungen von JSON-ähnlichen Dokumenten verwalten. So können viele Anwendungen Daten auf natürlichere Weise modellieren, da die Daten zwar in komplexen Hierarchien verschachtelt werden können, dabei aber immer abfragbar und indizierbar bleiben.",

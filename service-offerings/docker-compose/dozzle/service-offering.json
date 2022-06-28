@@ -1,14 +1,10 @@
 {
   "id": "d30ab535-f15e-42fe-a825-23cd65eef75b",
   "name": "Dozzle Monitoring App",
-  "serviceVendorId": "4b407e9f-2154-401d-a4e1-b1497c5619c1",
+  "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.",
   "shortDescription": "Dozzle is a small lightweight application to monitor Docker logs from a web based interface.",
   "deploymentType": "DOCKER_COMPOSE",
-  "cost": 0,
-  "costPeriod": 0,
-  "costCurrency": "EUR",
-  "serviceCategoryId": -1,
   "serviceCategoryName": "Application",
   "version": "3.12.6",
   "serviceOptionCategories": [
@@ -37,7 +33,7 @@
   ],
   "projects": [
   ],
-  "composeFilename": "docker-compose.yaml",
+  "composeFilename": "docker-compose.yml",
   "envFilenames": [],
   "coverImageFilename": "dozzle.png"
 }

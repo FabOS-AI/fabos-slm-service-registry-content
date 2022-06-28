@@ -1,4 +1,5 @@
 {
+  "id": "457b7d70-108e-466c-8cff-4321b7629639",
   "name": "Visual Studio Code Server",
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar. Visual Studio Code basiert auf dem Framework Electron und ermöglicht u. a. Syntaxhervorhebung, Code-Faltung, Debugging, Autovervollständigung und Versionsverwaltung.",

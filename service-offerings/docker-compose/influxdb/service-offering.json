@@ -1,4 +1,5 @@
 {
+  "id": "e27750f8-1490-44ff-bd41-97bdf991f0ad",
   "name": "InfluxDB",
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "InfluxDB ist ein Open Source Datenbankmanagementsystem (DBMS), speziell für Zeitreihen. Es wird von der Firma InfluxData entwickelt und vertrieben.",

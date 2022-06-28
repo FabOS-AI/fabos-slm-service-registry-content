@@ -1,4 +1,5 @@
 {
+  "id": "73e2478b-3acc-47ab-acc0-80fd98d9cd92",
   "name": "Chronograf",
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "Chronograf is the user interface and administrative component of the InfluxDB 1.x platform. Use templates and libraries to rapidly build dashboards with real-time visualizations.",

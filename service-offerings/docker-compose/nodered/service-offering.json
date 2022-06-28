@@ -1,4 +1,5 @@
 {
+  "id": "74d29e30-2ad6-46ce-9952-b11744a82cea",
   "name": "NodeRed",
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "Node-RED ist ein von IBM entwickeltes grafisches Entwicklungswerkzeug. Die Software ermöglicht es, Anwendungsfälle im Bereich des Internets der Dinge mit einem einfachen Baukastenprinzip umzusetzen. Die einzelnen Funktionsbausteine werden durch Ziehen von Verbindungen verbunden. Eine große Auswahl an mitgelieferten Bausteinen deckt die meisten der gängigsten Dienste und Technologien ab.",
