@@ -1,0 +1,1 @@
+# fabos-slm-service-registry-content
