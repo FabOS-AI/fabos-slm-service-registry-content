@@ -13,6 +13,6 @@
   "envFiles": {},
 
   "serviceCategoryName": "Git",
-  "coverImageFilename": "gogs_logo_only.png",
+  "coverImageFilename": "gogs.png",
   "composeFilename": "docker-compose.yml"
 }

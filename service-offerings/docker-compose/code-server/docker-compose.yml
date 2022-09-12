@@ -1,4 +1,3 @@
----
 version: "2.1"
 services:
   code-server:
@@ -13,8 +12,6 @@ services:
       - SUDO_PASSWORD=password #optional
       - SUDO_PASSWORD_HASH= #optional
       - DEFAULT_WORKSPACE=/config/workspace #optional
-#    volumes:
-#      - /path/to/appdata/config:/config
     ports:
       - 8443:8443
     restart: unless-stopped

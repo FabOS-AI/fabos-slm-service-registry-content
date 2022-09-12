@@ -1,9 +1,0 @@
-version: "3"
-services:
-  dozzle:
-    restart: always
-    image: amir20/dozzle:v3.12.6
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    ports:
-      - "${DOZZLE_PORT}:8080"
