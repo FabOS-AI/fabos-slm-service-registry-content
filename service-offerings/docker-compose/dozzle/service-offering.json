@@ -4,36 +4,38 @@
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.",
   "shortDescription": "Dozzle is a small lightweight application to monitor Docker logs from a web based interface.",
-  "deploymentType": "DOCKER_COMPOSE",
+  "coverImageFilename": "dozzle.png",
   "serviceCategoryName": "Application",
-  "version": "3.12.6",
-  "serviceOptionCategories": [
-    {
-      "id": 0,
-      "name": "Environment",
-      "serviceOptions": [
-        {
-          "relation": ".env",
-          "key": "DOZZLE_PORT",
-          "name": "Exposed port for dozzle container",
-          "description": "Exposed port for dozzle container",
-          "optionType": "ENVIRONMENT_VARIABLE",
-          "defaultValue": 9999,
-          "valueType": "INTEGER",
-          "valueOptions": [],
-          "required": true,
-          "editable": true
-        }
-      ]
+  "version": {
+    "id": "d1d409ee-7bc5-47cb-a13b-0114e792e4ba",
+    "version": "3.12.6",
+    "serviceOptionCategories": [
+      {
+        "id": 0,
+        "name": "Environment",
+        "serviceOptions": [
+          {
+            "relation": ".env",
+            "key": "DOZZLE_PORT",
+            "name": "Exposed port for dozzle container",
+            "description": "Exposed port for dozzle container",
+            "optionType": "ENVIRONMENT_VARIABLE",
+            "defaultValue": 9999,
+            "valueType": "INTEGER",
+            "valueOptions": [],
+            "required": true,
+            "editable": true
+          }
+        ]
+      }
+    ],
+    "serviceRequirements": [],
+    "serviceRepositories": [],
+    "deploymentDefinition": {
+      "deploymentType": "DOCKER_COMPOSE",
+      "composeFilename": "docker-compose.yml",
+      "dotEnvFile": "",
+      "envFilenames": []
     }
-  ],
-  "serviceRequirements": [
-  ],
-  "serviceRepositories": [
-  ],
-  "projects": [
-  ],
-  "composeFilename": "docker-compose.yml",
-  "envFilenames": [],
-  "coverImageFilename": "dozzle.png"
+  }
 }

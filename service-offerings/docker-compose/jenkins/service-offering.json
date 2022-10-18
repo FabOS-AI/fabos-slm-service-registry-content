@@ -4,15 +4,19 @@
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
   "shortDescription": "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
-  "deploymentType": "DOCKER_COMPOSE",
-  "version": "2.349",
-  "serviceOptionCategories": [ ],
-  "serviceRequirements": [],
-  "serviceRepositories": [],
-  "dotEnvFile": "",
-  "envFiles": {},
-
-  "serviceCategoryName": "CI/CD",
   "coverImageFilename": "jenkins.png",
-  "composeFilename": "docker-compose.yml"
+  "serviceCategoryName": "CI/CD",
+  "version": {
+    "id": "99af0a51-49aa-4438-92fa-606e32cfca65",
+    "version": "2.349",
+    "serviceOptionCategories": [],
+    "serviceRequirements": [],
+    "serviceRepositories": [],
+    "deploymentDefinition": {
+      "deploymentType": "DOCKER_COMPOSE",
+      "composeFilename": "docker-compose.yml",
+      "dotEnvFile": "",
+      "envFilenames": []
+    }
+  }
 }

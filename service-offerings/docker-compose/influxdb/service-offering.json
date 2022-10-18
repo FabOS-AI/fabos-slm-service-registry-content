@@ -4,15 +4,19 @@
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "InfluxDB ist ein Open Source Datenbankmanagementsystem (DBMS), speziell für Zeitreihen. Es wird von der Firma InfluxData entwickelt und vertrieben.",
   "shortDescription": "InfluxDB ist ein Open Source Datenbankmanagementsystem (DBMS), speziell für Zeitreihen.",
-  "deploymentType": "DOCKER_COMPOSE",
-  "version": "1.8",
-  "serviceOptionCategories": [ ],
-  "serviceRequirements": [],
-  "serviceRepositories": [],
-  "dotEnvFile": "",
-  "envFiles": {},
-
-  "serviceCategoryName": "Database",
   "coverImageFilename": "influxdb.png",
-  "composeFilename": "docker-compose.yml"
+  "serviceCategoryName": "Database",
+  "version": {
+    "id": "0a6fbc09-eed7-4945-8403-92feefe9b3f4",
+    "version": "1.8",
+    "serviceOptionCategories": [],
+    "serviceRequirements": [],
+    "serviceRepositories": [],
+    "deploymentDefinition": {
+      "deploymentType": "DOCKER_COMPOSE",
+      "composeFilename": "docker-compose.yml",
+      "dotEnvFile": "",
+      "envFilenames": []
+    }
+  }
 }

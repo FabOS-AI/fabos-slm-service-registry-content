@@ -4,15 +4,19 @@
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
   "description": "Node-RED ist ein von IBM entwickeltes grafisches Entwicklungswerkzeug. Die Software ermöglicht es, Anwendungsfälle im Bereich des Internets der Dinge mit einem einfachen Baukastenprinzip umzusetzen. Die einzelnen Funktionsbausteine werden durch Ziehen von Verbindungen verbunden. Eine große Auswahl an mitgelieferten Bausteinen deckt die meisten der gängigsten Dienste und Technologien ab.",
   "shortDescription": "Node-RED ist ein grafisches Entwicklungswerkzeug",
-  "deploymentType": "DOCKER_COMPOSE",
-  "version": "2.2.2",
-  "serviceOptionCategories": [ ],
-  "serviceRequirements": [],
-  "serviceRepositories": [],
-  "dotEnvFile": "",
-  "envFiles": {},
-
-  "serviceCategoryName": "Middleware",
   "coverImageFilename": "node-red.png",
-  "composeFilename": "docker-compose.yml"
+  "serviceCategoryName": "Middleware",
+  "version": {
+    "id": "6c73cb6f-1712-4a2e-a46a-b1d07c7d8ee8",
+    "version": "2.2.2",
+    "serviceOptionCategories": [],
+    "serviceRequirements": [],
+    "serviceRepositories": [],
+    "deploymentDefinition": {
+      "deploymentType": "DOCKER_COMPOSE",
+      "composeFilename": "docker-compose.yml",
+      "dotEnvFile": "",
+      "envFilenames": []
+    }
+  }
 }
