@@ -1,0 +1,23 @@
+---
+id: 68b0b61a-148b-4602-a2b6-8124df0e169e
+name: RabbitMQ
+serviceVendorId: dac52253-a580-479a-84fe-2ca0ae90fb2c
+description: RabbitMQ is open source message broker software (sometimes called message-oriented middleware) that 
+  implements the Advanced Message Queuing Protocol (AMQP). The RabbitMQ server is written in the Erlang programming 
+  language and is built on the Open Telecom Platform framework for clustering and failover. Client libraries to 
+  interface with the broker are available for all major programming languages.
+shortDescription: RabbitMQ is open source message broker software (sometimes called message-oriented middleware) that 
+  implements the Advanced Message Queuing Protocol (AMQP).
+coverImageFilename: rabbitmq.png
+serviceCategoryName: Broker
+version:
+  id: fc2b2d69-d07e-4450-ab3c-2f1b794cecda
+  version: '3.10'
+  serviceOptionCategories: []
+  serviceRequirements: []
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yml
+    dotEnvFile: ''
+    envFilenames: []

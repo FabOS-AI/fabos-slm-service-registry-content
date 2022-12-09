@@ -1,0 +1,22 @@
+---
+id: 0d59f979-c678-43c5-921f-195fe2c7a4fb
+name: Telegraf
+serviceVendorId: dac52253-a580-479a-84fe-2ca0ae90fb2c
+description: Telegraf is a server-based agent for collecting and sending all metrics and events from databases, systems,
+  and IoT sensors. Telegraf is written in Go and compiles into a single binary with no external dependencies, and 
+  requires a very minimal memory footprint.
+shortDescription: Telegraf is a server-based agent for collecting and sending all metrics and events from databases, 
+  systems, and IoT sensors.
+coverImageFilename: telegraf.png
+serviceCategoryName: Agent
+version:
+  id: 7c52f007-2a80-468c-877f-090f86aa09c6
+  version: '1.20'
+  serviceOptionCategories: []
+  serviceRequirements: []
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yml
+    dotEnvFile: ''
+    envFilenames: []
