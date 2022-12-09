@@ -1,0 +1,11 @@
+---
+- name: Database
+- name: Application
+- name: Broker
+- name: Dashboard
+- name: Firewall
+- name: Middleware
+- name: Agent
+- name: CI/CD
+- name: Git
+- name: IDE
