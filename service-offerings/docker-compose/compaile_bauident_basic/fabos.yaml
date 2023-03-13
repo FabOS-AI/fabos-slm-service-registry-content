@@ -1,0 +1,21 @@
+---
+id: b7fa1363-7983-4bcc-bcb2-528cb6e871af
+name: BauIdent
+serviceVendorId: 3d2f674d-b65f-4b04-907a-f055987967a8
+description: Component identification solution that uses a neural network and vector embedding approach to quickly and 
+  accurately identify components in real time.
+shortDescription: Component identification solution that uses a neural network and vector embedding approach to quickly 
+  and accurately identify components in real time.
+coverImageFilename: cover-bauident.jpg
+serviceCategoryName: Application
+version:
+  id: e700a75b-18ad-47f9-a27b-fa82e64e47eb
+  version: 'Full'
+  serviceOptionCategories: []
+  serviceRequirements: []
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yml
+    dotEnvFile: ''
+    envFilenames: []
