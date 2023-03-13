@@ -1,5 +1,33 @@
 ---
 - id: dac52253-a580-479a-84fe-2ca0ae90fb2c
   name: FabOS
-  description: ''
+  description: 'FabOS'
   logoFilename: logo-fabos.png
+- id: b40ff49b-a6fa-4531-a0a5-f8f2da6d374f
+  name: Eclipse BaSyx
+  description: 'Eclipse BaSyx'
+  logoFilename: logo-basyx.png
+- id: 4b407e9f-2154-401d-a4e1-b1497c5619c1
+  name: Fraunhofer IPA
+  description: 'Fraunhofer-Institut für Produktionstechnik und Automatisierung IPA'
+  logoFilename: logo-fraunhofer.png
+- id: ccfeb451-2c10-4aaf-88c0-8eb0103a8255
+  name: Fraunhofer IESE
+  description: 'Fraunhofer-Institut für Experimentelles Software Engineering IESE'
+  logoFilename: logo-fraunhofer.png
+- id: 6d84887f-6ea8-467a-a377-f9679dfa7e69
+  name: Fraunhofer IPT
+  description: 'Fraunhofer-Institut für Produktionstechnologie IPT'
+  logoFilename: logo-fraunhofer.png
+- id: 3d2f674d-b65f-4b04-907a-f055987967a8
+  name: COMPAILE
+  description: 'Compaile Solutions GmbH'
+  logoFilename: logo-compaile.png
+- id: aed39848-9bc3-4e29-b979-75240b4b650f
+  name: USU
+  description: 'USU Software AG'
+  logoFilename: logo-usu.png
+- id: 77c46071-7db1-4a2a-8304-39d912fb4ce6
+  name: KENBUN
+  description: 'KENBUN IT AG'
+  logoFilename: logo-kenbun.jpg
