@@ -1,10 +1,9 @@
 ---
 id: 6f34269e-8029-49e9-a074-1c021954fa1b
 name: Bin Picking bp3
-serviceVendorId: d9d5b32e-443d-4110-9dc7-97fb8a7c508e
-description: The bin picking software bp3 is a robotized solution for feeding of workpices. You can use bp3™ to make 
-  your systems and products more compact, flexible and efficient. With our industry-proven bin picking solution an 
-  automated feeding from containers, crates or wire boxes can be realized economically.
+serviceVendorId: 4b407e9f-2154-401d-a4e1-b1497c5619c1
+description: The bin picking software bp3 is a robotized solution for feeding of workpices. You can use bp3 to make your systems and products more compact, flexible and efficient. With our
+  industry-proven bin picking solution an automated feeding from containers, crates or wire boxes can be realized economically.
 shortDescription: Bin picking software bp3 is a robotized solution for feeding of workpices.
 coverImageFilename: cover-bin-picking.jpg
 serviceCategoryName: Application
