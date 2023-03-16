@@ -17,7 +17,7 @@ version:
     - id: 0
       name: Environment Options
       serviceOptions:
-        - relation: 'kubernetes-so-demo|demonstrate-envars'
+        - relation: 'kubernetes-so-demo|hello-app-server'
           key: DEMO_GREETING
           name: Greeting (demo env var)
           description: This specifies the greeting demo variable.
@@ -26,7 +26,7 @@ version:
           valueType: STRING
           required: true
           editable: true
-        - relation: 'kubernetes-so-demo|demonstrate-envars'
+        - relation: 'kubernetes-so-demo|hello-app-server'
           key: DEMO_FAREWELL
           name: Farewell (demo env var)
           description: This specifies the farewll demo variable.
