@@ -1,0 +1,42 @@
+---
+id: 5fe39eb1-0fb8-4b3f-96cd-22a65d41c085
+name: Grafana
+serviceVendorId: dac52253-a580-479a-84fe-2ca0ae90fb2c
+description: This stream viewer can be configured to dislay an mpjeg stream embedded in a web application.
+  Therefore the application pulls the stream URL from a camera AAS on an AAS server. 
+  Hence, the AAS server host path and AAS ID has to be specified during deployment, via environement variables.
+shortDescription: This stream viewer can be configured to display an MJPEG stream embedded in an web application.
+coverImageFilename: icon.png
+serviceCategoryName: Dashboard
+version:
+  id: c1e0f45a-0f33-4deb-96f4-5979e8e14fe7
+  version: 0.0.1
+  serviceOptionCategories:
+    - id: 0
+      name: Environment Options
+      serviceOptions:
+        - relation: 'stream-viewer'
+          key: VUE_APP_AAS_SERVER_HOST
+          name: AAS Server Host
+          description: Specifies the host path of the AAS server.
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'http://localhost:4001/aasServer'
+          valueType: STRING
+          required: true
+          editable: true
+        - relation: 'stream-viewer'
+          key: VUE_APP_AAS_ID
+          name: AAS Server Host
+          description: Specifies the AAS ID of the camera AAS on the server.
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'IDSCamAAS001'
+          valueType: STRING
+          required: true
+          editable: true
+  serviceRequirements: []
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yaml
+    dotEnvFile: ''
+    envFilenames: []
