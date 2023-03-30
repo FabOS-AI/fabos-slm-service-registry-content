@@ -1,11 +1,11 @@
 ---
 id: 5fe39eb1-0fb8-4b3f-96cd-22a65d41c085
-name: Grafana
+name: Camera Stream Viewer
 serviceVendorId: dac52253-a580-479a-84fe-2ca0ae90fb2c
-description: This stream viewer can be configured to dislay an mpjeg stream embedded in a web application.
+description: This camera stream viewer can be configured to dislay an MJPEG camera stream embedded in an web application.
   Therefore the application pulls the stream URL from a camera AAS on an AAS server. 
   Hence, the AAS server host path and AAS ID has to be specified during deployment, via environement variables.
-shortDescription: This stream viewer can be configured to display an MJPEG stream embedded in an web application.
+shortDescription: This stream viewer can be configured to display an MJPEG camera stream embedded in an web application.
 coverImageFilename: icon.png
 serviceCategoryName: Dashboard
 version:
