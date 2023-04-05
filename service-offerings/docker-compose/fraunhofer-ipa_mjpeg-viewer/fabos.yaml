@@ -29,7 +29,7 @@ version:
           name: Camera
           description: 'Specifies the AAS ID of the camera to connect to.'
           optionType: ENVIRONMENT_VARIABLE
-          defaultValue: 'FabOSCameraSubmodelTemplate'
+          defaultValue: 'FabOSCamera'
           valueType: AAS_SM_TEMPLATE
           required: true
           editable: true
