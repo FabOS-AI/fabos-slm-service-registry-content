@@ -16,21 +16,21 @@ version:
       name: Environment Options
       serviceOptions:
         - relation: 'stream-viewer'
-          key: VUE_APP_AAS_SERVER_HOST
-          name: AAS Server Host
-          description: Specifies the host path of the AAS server.
+          key: VUE_APP_AAS_REGISTRY
+          name: AAS Registry
+          description: 'Specifies the url of the AAS registry.'
           optionType: ENVIRONMENT_VARIABLE
-          defaultValue: 'http://localhost:4001/aasServer'
-          valueType: STRING
-          required: true
-          editable: true
+          defaultValue: 'AAS_REGISTRY'
+          valueType: TEMPLATE_VARIABLE
+          required: false
+          editable: false
         - relation: 'stream-viewer'
           key: VUE_APP_AAS_ID
-          name: AAS Server Host
-          description: Specifies the AAS ID of the camera AAS on the server.
+          name: Camera
+          description: 'Specifies the AAS ID of the camera to connect to.'
           optionType: ENVIRONMENT_VARIABLE
-          defaultValue: 'IDSCamAAS001'
-          valueType: STRING
+          defaultValue: 'FabOSCameraSubmodelTemplate'
+          valueType: AAS_SM_TEMPLATE
           required: true
           editable: true
   serviceRequirements: []
