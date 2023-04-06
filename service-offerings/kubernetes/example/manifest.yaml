@@ -26,24 +26,24 @@ spec:
           value: "Such a sweet sorrow"
 ---
 # a custom resource definition (currently only supports string replacement)
-apiVersion: bliblablub/alphav1
-kind: RandomKind
-metadata:
-  name: kubernetes-so-demo
-  labels:
-    app: demonstrate-envars
-spec:
-  workloads:
-  - name: workload1
-    relation:
-      workload: workload2
-    spec:
-      template:
-        metadata:
-          labels:
-            app: demonstrate-envars
-            tier: web
-        spec:
-          containers:
-          - name: hello-app-server
-            image: ${{crd_image_tag}}
+# apiVersion: bliblablub/alphav1
+# kind: RandomKind
+# metadata:
+#   name: kubernetes-so-demo
+#   labels:
+#     app: demonstrate-envars
+# spec:
+#   workloads:
+#   - name: workload1
+#     relation:
+#       workload: workload2
+#     spec:
+#       template:
+#         metadata:
+#           labels:
+#             app: demonstrate-envars
+#             tier: web
+#         spec:
+#           containers:
+#           - name: hello-app-server
+#             image: ${{crd_image_tag}}
