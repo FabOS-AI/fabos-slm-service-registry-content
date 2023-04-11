@@ -31,3 +31,7 @@
   name: KENBUN
   description: 'KENBUN IT AG'
   logoFilename: logo-kenbun.jpg
+- id: 50748fac-e5bd-44ea-95b4-b001141ced33
+  name: SIEMENS
+  description: 'Siemens AG'
+  logoFilename: logo-siemens.jpg
