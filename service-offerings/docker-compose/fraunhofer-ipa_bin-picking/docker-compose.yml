@@ -1,5 +1,0 @@
-version: '3'
-
-services:
-  bp3:
-    image: registry.gitlab.cc-asp.fraunhofer.de/fabos-ipa/bin-picking/bp3:v1.0
