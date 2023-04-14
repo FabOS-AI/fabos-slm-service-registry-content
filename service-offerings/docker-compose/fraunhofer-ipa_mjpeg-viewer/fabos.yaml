@@ -33,7 +33,15 @@ version:
           valueType: AAS_SM_TEMPLATE
           required: true
           editable: true
-  serviceRequirements: []
+  serviceRequirements:
+    - name: OSRequirement
+      logics:
+        - type: ALL
+          properties:
+            - name: HostOSArchitecture
+              semanticId: 0173-1#02-BAB457#005
+              value: x86_64
+              parentSubmodelsSemanticIds: [https://fabos.io/PlattformResources]
   serviceRepositories: []
   deploymentDefinition:
     deploymentType: DOCKER_COMPOSE
