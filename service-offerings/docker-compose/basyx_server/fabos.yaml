@@ -1,0 +1,27 @@
+---
+id: ff801896-c0f1-46cd-9d2b-837241ae158e
+name: BaSyx Server (OTS)
+serviceVendorId: b40ff49b-a6fa-4531-a0a5-f8f2da6d374f
+description: The AAS server component provides an empty AAS server that can be used to host several AAS and Submodels
+shortDescription: The off-the-shelve (OTS) BaSyx AAS server component provides an empty AAS server that can be used to host several AAS and Submodels.
+coverImageFilename: server.png
+serviceCategoryName: Middleware
+version:
+  id: fdf9aed6-dfc3-4f82-b75b-5bf0780eb13e
+  version: 1.3.1
+  serviceOptionCategories: []
+  serviceRequirements:
+    - name: OSRequirement
+      logics:
+        - type: ALL
+          properties:
+            - name: HostOSArchitecture
+              semanticId: 0173-1#02-BAB457#005
+              value: x86_64
+              parentSubmodelsSemanticIds: [https://fabos.io/PlattformResources]
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yaml
+    dotEnvFile: ''
+    envFilenames: []

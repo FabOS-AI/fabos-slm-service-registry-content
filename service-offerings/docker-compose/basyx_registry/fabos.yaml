@@ -1,0 +1,29 @@
+---
+id: bd6225d0-3ac3-4ffe-a85a-9e57c6f481dc
+name: BaSyx Registry (OTS)
+serviceVendorId: b40ff49b-a6fa-4531-a0a5-f8f2da6d374f
+description: The Registry is a central component to the Asset Administration Shell (AAS) infrastructure for looking up 
+  available AAS and their contained submodels. Hence, it is realized as a separate component that can also be containerized. 
+  Currently, there exists a single Registry component that can be configured to utilize different types of backends.
+shortDescription: The off-the-shelve (OTS) BaSyx registry is a central component to the Asset Administration Shell (AAS) infrastructure.
+coverImageFilename: registry.png
+serviceCategoryName: Middleware
+version:
+  id: 44381fc5-475d-4a3d-b394-ed641eb7eb26
+  version: 1.3.1
+  serviceOptionCategories: []
+  serviceRequirements:
+    - name: OSRequirement
+      logics:
+        - type: ALL
+          properties:
+            - name: HostOSArchitecture
+              semanticId: 0173-1#02-BAB457#005
+              value: x86_64
+              parentSubmodelsSemanticIds: [https://fabos.io/PlattformResources]
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yaml
+    dotEnvFile: ''
+    envFilenames: []
