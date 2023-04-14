@@ -14,7 +14,28 @@ serviceCategoryName: Dashboard
 version:
   id: 1ce1a296-bfde-4f15-9439-921fed6409a2
   version: 8.5.3
-  serviceOptionCategories: []
+  serviceOptionCategories:
+    - id: 0
+      name: Environment
+      serviceOptions:
+        - relation: ''
+          key: GF_SECURITY_ADMIN_USER
+          name: Admin Username
+          description: This name is used for the admin user
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'admin'
+          valueType: STRING
+          required: true
+          editable: true
+        - relation: ''
+          key: GF_SECURITY_ADMIN_PASSWORD
+          name: Default Admin Password
+          description: Password for admin user
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'password'
+          valueType: PASSWORD
+          required: true
+          editable: true
   serviceRequirements: []
   serviceRepositories: []
   deploymentDefinition:
