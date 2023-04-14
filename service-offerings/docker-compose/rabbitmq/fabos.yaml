@@ -13,7 +13,28 @@ serviceCategoryName: Broker
 version:
   id: fc2b2d69-d07e-4450-ab3c-2f1b794cecda
   version: '3.10'
-  serviceOptionCategories: []
+  serviceOptionCategories:
+    - id: 0
+      name: Environment
+      serviceOptions:
+        - relation: ''
+          key: RABBITMQ_DEFAULT_USER
+          name: Default Username
+          description: This name is used for the default user
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'user'
+          valueType: STRING
+          required: true
+          editable: true
+        - relation: ''
+          key: RABBITMQ_DEFAULT_PASS
+          name: Default Password
+          description: Password for default user
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'password'
+          valueType: PASSWORD
+          required: true
+          editable: true
   serviceRequirements: []
   serviceRepositories: []
   deploymentDefinition:
