@@ -12,3 +12,16 @@ services:
           - aas-registry
     ports:
       - "4000:4000"
+
+  aas-database:
+    image: mongo:latest
+    restart: always
+    networks:
+      default:
+        aliases:
+          - aas-database
+    volumes:
+      - "aas_database:/data/db"
+
+volumes:
+  aas_database:

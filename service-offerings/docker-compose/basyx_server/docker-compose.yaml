@@ -12,3 +12,16 @@ services:
           - aas-server
     ports:
       - "4001:4001"
+
+  aas-database:
+    image: mongo:latest
+    restart: always
+    networks:
+      default:
+        aliases:
+          - aas-database
+    volumes:
+      - "aas_database:/data/db"
+
+volumes:
+  aas_database:
