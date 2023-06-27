@@ -21,7 +21,7 @@ version:
           description: 'Specifies the url of the AAS registry.'
           optionType: ENVIRONMENT_VARIABLE
           defaultValue: 'AAS_REGISTRY'
-          valueType: TEMPLATE_VARIABLE
+          valueType: SYSTEM_VARIABLE
           required: false
           editable: false
         - relation: 'stream-viewer'
