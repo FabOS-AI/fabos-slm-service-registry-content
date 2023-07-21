@@ -35,3 +35,7 @@
   name: SIEMENS
   description: 'Siemens AG'
   logoFilename: logo-siemens.png
+- id: 864f9d2a-539e-42e0-92ce-18c13b0f5cfb
+  name: Carl Zeiss
+  description: 'Carl Zeiss IMT'
+  logoFilename: logo-zeiss.png
