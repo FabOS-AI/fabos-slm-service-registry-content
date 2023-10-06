@@ -13,18 +13,18 @@ version:
   version: 7.0.4
   serviceOptionCategories:
     - id: 1
-      name: Common
+      name: WebUI
       serviceOptions:
-        relation: jupyter
-        key: JUPYTER_TOKEN
-        name: Password
-        description: Password for Web GUI
-        optionType: ENVIRONMENT_VARIABLE
-        defaultValue: null
-        valueType: "STRING
-        valueOptions: []
-        required: true
-        editable: true
+        - relation: jupyter
+          key: JUPYTER_TOKEN
+          name: Password
+          description: Password for Web GUI
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: null
+          valueType: "STRING
+          valueOptions: []
+          required: true
+          editable: true
   serviceRequirements: []
   serviceRepositories: []
   deploymentDefinition:
