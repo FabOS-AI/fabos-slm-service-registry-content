@@ -1,0 +1,34 @@
+---
+id: 83cab2b8-7f4b-434b-a822-af8d41815cb9
+name: JupyterLab
+serviceVendorId: dac52253-a580-479a-84fe-2ca0ae90fb2c
+description: JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its 
+  flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational 
+  journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
+shortDescription: JupyterLab is the latest web-based interactive development environment for notebooks, code, and data.
+coverImageFilename: jupyter_logo.png
+serviceCategoryName: Application
+version:
+  id: 9e60fd8f-af58-4e7b-afd6-acf9e39815a4
+  version: 7.0.4
+  serviceOptionCategories:
+    - id: 1
+      name: Common
+      serviceOptions:
+        relation: jupyter
+        key: JUPYTER_TOKEN
+        name: Password
+        description: Password for Web GUI
+        optionType: ENVIRONMENT_VARIABLE
+        defaultValue: null
+        valueType: "STRING
+        valueOptions: []
+        required: true
+        editable: true
+  serviceRequirements: []
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yaml
+    dotEnvFile: ''
+    envFilenames: []

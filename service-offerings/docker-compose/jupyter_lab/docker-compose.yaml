@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jupyter:
+    image: jupyter/base-notebook:notebook-7.0.4
+    restart: always
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=password
