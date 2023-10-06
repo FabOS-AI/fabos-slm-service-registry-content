@@ -21,7 +21,7 @@ version:
           description: Password for Web GUI
           optionType: ENVIRONMENT_VARIABLE
           defaultValue: null
-          valueType: "STRING
+          valueType: STRING
           valueOptions: []
           required: true
           editable: true
