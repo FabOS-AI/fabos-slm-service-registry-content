@@ -41,7 +41,7 @@ version:
             - name: HostOSArchitecture
               semanticId: 0173-1#02-BAB457#005
               value: x86_64
-              parentSubmodelsSemanticIds: [https://fabos.io/PlattformResources]
+              parentSubmodelsSemanticIds: [https://eclipse.dev/slm/aas/sm/PlatformResources]
   serviceRepositories: []
   deploymentDefinition:
     deploymentType: DOCKER_COMPOSE
