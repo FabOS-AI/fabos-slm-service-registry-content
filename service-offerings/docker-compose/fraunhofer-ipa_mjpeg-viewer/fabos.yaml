@@ -25,7 +25,7 @@ version:
           required: false
           editable: false
         - relation: 'stream-viewer'
-          key: VUE_APP_AAS_REGISTRY
+          key: VUE_APP_SUBMODEL_REGISTRY
           name: Submodel Registry
           description: 'Specifies the url of the Submodel registry.'
           optionType: ENVIRONMENT_VARIABLE
