@@ -38,7 +38,7 @@ version:
           name: Camera
           description: 'Specifies the AAS ID of the camera to connect to.'
           optionType: ENVIRONMENT_VARIABLE
-          defaultValue: 'fabos_camera'
+          defaultValue: 'Resource_67c5591a-6c0b-4b48-96c4-ee1b47332a31'
           valueType: AAS_SM_TEMPLATE
           required: true
           editable: true
