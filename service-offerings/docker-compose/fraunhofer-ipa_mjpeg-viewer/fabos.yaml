@@ -10,7 +10,7 @@ coverImageFilename: icon.png
 serviceCategoryName: Dashboard
 version:
   id: c1e0f45a-0f33-4deb-96f4-5979e8e14fe7
-  version: 0.0.1
+  version: 0.0.2
   serviceOptionCategories:
     - id: 0
       name: Environment Options
@@ -21,6 +21,15 @@ version:
           description: 'Specifies the url of the AAS registry.'
           optionType: ENVIRONMENT_VARIABLE
           defaultValue: 'AAS_REGISTRY'
+          valueType: SYSTEM_VARIABLE
+          required: false
+          editable: false
+        - relation: 'stream-viewer'
+          key: VUE_APP_AAS_REGISTRY
+          name: Submodel Registry
+          description: 'Specifies the url of the Submodel registry.'
+          optionType: ENVIRONMENT_VARIABLE
+          defaultValue: 'SUBMODEL_REGISTRY'
           valueType: SYSTEM_VARIABLE
           required: false
           editable: false
